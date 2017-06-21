@@ -1,7 +1,7 @@
 import os # for JSON reading of file modified times
 import socket # for internet sockets
 import logging # for debugging
-import time # time functions
+#import time """ time functions """
 import sys # for Logging
 from multiprocessing import Process, Pool, TimeoutError, Lock # to multiprocess sql inserts 
 from http.server import BaseHTTPRequestHandler, HTTPServer
@@ -49,7 +49,7 @@ def checkTableExists(dbcon, tablename):
     dbcur.close()
     return False
 
-def ErrorHandler(errortype,error):
+def ErrorHandler(errortype, error):
 	print(errortype + ': ' + error)
 	if errortype == 'warn':
 		logging.warning(errortype + ': ' + error)
@@ -61,7 +61,7 @@ def Main():
 	# Main Function
 	# Get the config from the JSON file specified
 	try:
-		CONFIG = open('config.ini', 'r')
+		CONFIG = open('serverconfig.ini', 'r')
 		CONFIG.close()
 	except FileNotFoundError:
 		ErrorHandler('warn','CONFIG.INI: No config file found at boot.')
@@ -77,9 +77,9 @@ def Main():
 	listen_socket.listen(1)
 	print('Now listening on PORT %s' % port)
 	logging.debug('Now listening on PORT %s' % port)
-	# iterating loop for our main function
+	# Start multithreading pool party
 	pool = Pool(processes=party) 
-	# Multithreading Start        
+	# Main loop when connections are made
 	while True:
 		client_connection, client_address = listen_socket.accept()
 		print('Incoming connection on: ' + str(client_address))
@@ -117,8 +117,9 @@ def Main():
 			# check to see if json has been modified
 			# query JSON file for config changes
 			client_connection.send(str(KEY) + 'YESQ' )			
-		if KEY == 'http':
-			httpd = HTTPInit((host,port), do_ERROR)
+		if KEY == 'http': #this does not currently work, need a better sample of http string
+			httpd = HTTPInit((host,port), do_ERROR) 
+			#point is to give a legit browser error to confuse attackers. 
 	client_connection.close()
 
 if __name__ == '__main__':
