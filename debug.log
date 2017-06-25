@@ -1,0 +1,96 @@
+
+DEBUG:root:Now listening on PORT 8888
+DEBUG:root:Now listening on PORT 8888
+DEBUG:root:Incoming Connection on ('76.28.191.45', 50626)
+DEBUG:root:GET / HTTP/1.1
+Host: ec2-35-165-72-27.us-west-2.compute.amazonaws.com:8888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+DNT: 1
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: en-US,en;q=0.8
+
+
+DEBUG:root:Now listening on PORT 8888
+DEBUG:root:Now listening on PORT 8888
+DEBUG:root:Now listening on PORT 8888
+DEBUG:root:Incoming Connection on ('76.28.191.45', 50805)
+DEBUG:root:
+DEBUG:root:Incoming Connection on ('76.28.191.45', 50804)
+DEBUG:root:GET / HTTP/1.1
+Host: ec2-35-165-72-27.us-west-2.compute.amazonaws.com:8888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+DNT: 1
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: en-US,en;q=0.8
+
+
+DEBUG:root:Now listening on PORT 8888
+DEBUG:root:Now listening on PORT 8888
+DEBUG:root:Now listening on PORT 8888
+DEBUG:root:Now listening on PORT 8888
+DEBUG:root:Now listening on PORT 8888
+DEBUG:root:Now listening on PORT 8888
+DEBUG:root:Now listening on PORT 8888
+DEBUG:root:Incoming Connection on ('64.187.168.139', 62989)
+DEBUG:root:GET / HTTP/1.1
+Host: ec2-35-165-72-27.us-west-2.compute.amazonaws.com:8888
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_2 like Mac OS X) AppleWebKit/603.2.4 (KHTML, like Gecko) Mobile/14F89 [FBAN/MessengerForiOS;FBAV/119.0.0.45.70;FBBV/58958965;FBDV/iPhone8,1;FBMD/iPhone;FBSN/iOS;FBSV/10.3.2;FBSS/2;FBCR/AT&T;FBID/phone;FBLC/en_US;FBOP/5;FBRV/0]
+Referer: http://m.facebook.com
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+
+
+DEBUG:root:Incoming Connection on ('64.187.168.139', 63010)
+DEBUG:root:GET / HTTP/1.1
+Host: ec2-35-165-72-27.us-west-2.compute.amazonaws.com:8888
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_2 like Mac OS X) AppleWebKit/603.2.4 (KHTML, like Gecko) Mobile/14F89 [FBAN/MessengerForiOS;FBAV/119.0.0.45.70;FBBV/58958965;FBDV/iPhone8,1;FBMD/iPhone;FBSN/iOS;FBSV/10.3.2;FBSS/2;FBCR/AT&T;FBID/phone;FBLC/en_US;FBOP/5;FBRV/0]
+Referer: http://m.facebook.com
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+
+
+DEBUG:root:Now listening on PORT 8888
+DEBUG:root:Now listening on PORT 8888
+DEBUG:root:Now listening on PORT 8888
+DEBUG:root:Now listening on PORT 8888
+DEBUG:root:Now listening on PORT 8888
+DEBUG:root:Now listening on PORT 8888
+DEBUG:root:Now listening on PORT 8888
+DEBUG:root:Now listening on PORT 8888
+DEBUG:root:Now listening on PORT 8888
+DEBUG:root:Now listening on PORT 8888
+DEBUG:root:Now listening on PORT 8888
+DEBUG:root:Now listening on PORT 8888
+DEBUG:root:Now listening on PORT 8888
+DEBUG:root:Now listening on PORT 8888
+DEBUG:root:Now listening on PORT 8888
+DEBUG:root:Now listening on PORT 8888
+DEBUG:root:Now listening on PORT 8888
+DEBUG:root:Now listening on PORT 8888
+DEBUG:root:Now listening on PORT 8888
+DEBUG:root:Now listening on PORT 8888
+DEBUG:root:Now listening on PORT 8888
+DEBUG:root:Now listening on PORT 8888
+DEBUG:root:Now listening on PORT 8888
+DEBUG:root:Now listening on PORT 8888
+DEBUG:root:Now listening on PORT 8888
+WARNING:root:warn: CONFIG.INI: No config file found at boot.
+DEBUG:root:Now listening on PORT 8888
+WARNING:root:warn: CONFIG.INI: No config file found at boot.
+DEBUG:root:Now listening on PORT 8888
+WARNING:root:warn: CONFIG.INI: No config file found at boot.
+DEBUG:root:Now listening on PORT 8888
